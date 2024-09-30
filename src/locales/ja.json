@@ -1,0 +1,321 @@
+{
+  "save-changes": "変更を保存",
+  "saving": "保存中...",
+  "back": "戻る",
+  "are-you-sure": "本気ですか？",
+  "copy-id-button": "IDをコピーする",
+  "time": {
+    "today-at": "今日の {0}",
+    "yesterday-at": "昨日の {0}"
+  },
+  "message-area": {
+    "no-message-perm": "このチャンネルで話す権限がありません。",
+    "not-connected-server": "接続されていません",
+    "attach-message": "メッセージを添付する",
+    "type-message": "メッセージを入力してください",
+    "back-to-bottom": "最後に戻る",
+    "new-messages": "新しいメッセージ"
+  },
+  "upload-dialog": {
+    "compress": "圧縮する",
+    "upload-to": "アップロード先"
+  },
+  "user-context": {
+    "view-profile": "プロフィールを見る",
+    "edit-roles": "役割の編集",
+    "kick": "キック",
+    "ban": "禁止",
+    "copy-user-tag": "ユーザーのコピー:タグ"
+  },
+  "message-context": {
+    "quote": "引用",
+    "edit": "編集"
+  },
+  "server-context": {
+    "mark-as-read": "既読としてマーク",
+    "server-settings": "サーバー設定",
+    "leave-server": "サーバーから離れる"
+  },
+  "channel-context": {
+    "mute-channel": "チャンネルをミュートする",
+    "unmute-channel": "チャンネルのミュートを解除する"
+  },
+  "settings": {
+    "tab-names": {
+      "account": "アカウント",
+      "notification": "通知",
+      "manage-emojis": "絵文字の管理",
+      "call-options": "通話オプション",
+      "startup-options": "起動オプション",
+      "program-activity": "プログラム活動",
+      "manage-bots": "ボットの管理",
+      "interface": "インタフェース",
+      "language": "言語",
+      "delete-account": "アカウントの削除",
+      "changelog": "変更履歴",
+      "wip-features": "WIP の機能"
+    },
+    "account": {
+      "title": "プロフィールを編集する",
+      "change-password": "パスワードを変更する",
+      "relink-google-drive": "Googleドライブを再リンクする",
+      "link-google-drive": "Googleドライブをリンクする",
+      "more-profile": "詳しいプロフィール",
+      "more-profile-notice": "この情報は誰でも見ることができます。"
+    },
+    "notification": {
+      "title": "通知設定を変更します。",
+      "notification-sound": "通知音",
+      "notification-sound-details": "クールな音を出して注目を集めます",
+      "notification-mentions-only": "メンション/ダイレクトメッセージのみ",
+      "notification-mentions-only-details": "メンションとダイレクトメッセージのみが音を鳴らしてプッシュされるようにします。",
+      "push-notification": "プッシュ通知",
+      "push-notification-details": "アプリを閉じているときでもプッシュ通知を受け取ります。"
+    },
+    "manage-emojis": {
+      "details": "独自のかわいい絵文字を無料でアップロードしてください!",
+      "supported-types": "サポートされているファイルの種類は、png、jpg、gif です。",
+      "add-emojis-button": "絵文字を追加する"
+    },
+    "startup-options": {
+      "title": "デスクトップ アプリの起動オプション",
+      "notice": "これらの設定を変更するには、Nertivia デスクトップ アプリをダウンロードする必要があります。",
+      "open-on-startup": "起動時にnertiviaを開く"
+    },
+    "program-activity": {
+      "details": "以下にアプリを追加して、実行中のプログラムやゲームを共有します。",
+      "notice": "プログラム アクティビティ機能を使用するには、Nertivia デスクトップ アプリをダウンロードする必要があります。"
+    },
+    "manage-bots": {
+      "details": "ボット ユーザーを作成すると、API を使用して独自の派手なボットを作成できるようになります。",
+      "command-notice": "ボット コマンドを追加して、ボットにどのコマンドが存在するかをユーザーに簡単に知らせます",
+      "create-bot-button": "ボットの作成",
+      "add-command-button": "コマンドの追加",
+      "edit-bot": "ボットの編集",
+      "edit-commands": "編集コマンド",
+      "create-invite-link": "招待リンクの作成",
+      "copy-invite-url": "招待URLをコピー",
+      "manage-token": "トークンの管理",
+      "show-token": "トークンの表示",
+      "copy-token": "トークンのコピー",
+      "reset-token": "トークンのリセット",
+      "delete-bot": "ボットの削除"
+    },
+    "delete-account": {
+      "notice": "アカウントを削除しようとしています",
+      "what-gets-deleted": "何が削除されるのか",
+      "what-wont-delete": "削除されないもの",
+      "messages-sent": "メッセージが公開サーバーに送信される",
+      "requirements": "要件",
+      "delete-leave-server": "すべてのサーバーを残す/削除する",
+      "delete-bots": "すべてのボットを削除する",
+      "delete-account-button": "私のアカウントを削除する"
+    },
+    "language": {
+      "details": "言語を変更した後、リロードが必要になる場合があります。 ",
+      "translators": "翻訳者"
+    },
+    "interface": {
+      "description": "ナーティビアの外観を変更します。",
+      "colors": "色",
+      "time-format": "時間の形式",
+      "default-theme": "デフォルトのテーマ",
+      "amoled-dark": "AMOLEDダーク",
+      "halloween-2020": "ハロウィン 2020",
+      "predefined-themes": "事前定義されたテーマ",
+      "custom-css": "カスタムCSS",
+      "general": "一般的な",
+      "navigation-bar": "ナビゲーションバー"
+    },
+    "wip-features": {
+      "title": "未完成または実験的な機能を有効にします。",
+      "none-available": "現在利用できる WIP 機能はありません。"
+    }
+  },
+  "server-settings": {
+    "permissions": {
+      "permissions": "権限",
+      "admin": {
+        "name": "管理者",
+        "info": "すべての権限を有効にします"
+      },
+      "send-messages": {
+        "name": "メッセージを送信する",
+        "info": "サーバーチャネルにメッセージを送信する"
+      },
+      "manage-roles": {
+        "name": "役割の管理",
+        "info": "ロールを更新または削除する"
+      },
+      "manage-channels": {
+        "name": "チャネルの管理",
+        "info": "チャンネルを更新または削除する"
+      },
+      "kick-user": {
+        "name": "キック",
+        "info": "ユーザーをキックする"
+      },
+      "ban-user": {
+        "name": "禁止",
+        "info": "ユーザーの参加をキックして制限する"
+      }
+    },
+    "tab-names": {
+      "general": "一般的な",
+      "manage-channels": "チャネルの管理",
+      "manage-roles": "役割の管理",
+      "manage-invites": "招待の管理",
+      "server-visibility": "サーバーの可視性",
+      "manage-emojis": "絵文字の管理",
+      "manage-notification": "通知の管理",
+      "banned-users": "禁止されたユーザー",
+      "manage-users": "ユーザーの管理",
+      "delete-server": "サーバーの削除"
+    },
+    "manage-roles": {
+      "manage-your-roles": "自分の役割を管理します。",
+      "default-role": "デフォルトの役割",
+      "bot-role": "ボットの役割",
+      "create-role": "新しい役割の作成",
+      "notice-bot": "このロールはボットによって作成されたため、削除したり、別のメンバーに割り当てたりすることはできません。",
+      "notice-default": "このロールはすべてのメンバーに適用されるデフォルトのロールであるため、削除したり割り当てを解除したりすることはできません。",
+      "pick-role-color": "役割の色を選択してください",
+      "role-name": "役割名",
+      "settings": "設定",
+      "delete-role": "役割の削除",
+      "deleting-role": "役割を削除しています...",
+      "hide-role": "役割を非表示にする"
+    },
+    "general": {
+      "general-server-settings": "一般的なサーバー設定"
+    },
+    "manage-channels": {
+      "manage-your-channels": "チャンネルを管理します。",
+      "delete-channel": "チャンネルの削除",
+      "deleting-channel": "チャンネルを削除しています...",
+      "channel-name": "チャンネル名",
+      "default-channel-notice": "これはデフォルトのチャンネルです。 ",
+      "create-new-channel": "新規作成",
+      "permission": {
+        "send-message": "メッセージを送信する"
+      },
+      "rate-limit-seconds": "レート制限 (秒)",
+      "text-channel": "テキストチャンネル",
+      "category-channel": "カテゴリ",
+      "html-channel": "HTML チャネル (WIP)"
+    },
+    "banned-users": {
+      "notice": "ここからメンバーの参加禁止を解除する",
+      "unbanning": "禁止解除中...",
+      "unban": "禁止を解除する"
+    },
+    "manage-invites": {
+      "notice": "管理者のみが全員の招待状を表示できます。",
+      "create-invites": "招待状の作成",
+      "custom-invite": "カスタム招待",
+      "save-custom-link": "カスタムリンクを保存",
+      "create-invite": "招待状の作成",
+      "link": "リンク",
+      "creator": "クリエイター",
+      "uses": "用途"
+    },
+    "manage-users": {
+      "search-user": "ユーザーの検索"
+    },
+    "delete-server": {
+      "type-server-name-to-confirm": "確認のためにサーバー名を入力します",
+      "deleting": "削除中..."
+    },
+    "notifications": {
+      "description": "通知設定を変更します。",
+      "notice": "これらの設定はあなたにのみ適用され、他の人には影響しません。",
+      "enable-notifications": "通知を有効にする",
+      "mute-sound": "音を消す",
+      "disable-notifications": "通知を無効にする"
+    }
+  },
+  "typing-status": {
+    "is-typing": "{0} が入力中です...",
+    "two-are-typing": "{0} と {1} が入力中です...",
+    "three-are-typing": "{0}、{1}、{2} が入力中です...",
+    "more-than-three": "{0} 人が入力しています..."
+  },
+  "dm-tab": {
+    "friends": "友達",
+    "recents": "最近",
+    "saved-notes": "保存されたメモ",
+    "add-friend": "友達を追加"
+  },
+  "dashboard-tab": {
+    "profile": "プロフィール",
+    "notifications": "通知",
+    "click-to-add-custom-status": "クリックしてカスタム ステータスを追加します",
+    "caught-up": "全部追いついた！",
+    "direct-messages": "ダイレクトメッセージ",
+    "servers": "サーバー",
+    "explore": "探検する",
+    "dashboard": "ダッシュボード"
+  },
+  "add-friend-popout": {
+    "notice": "ユーザー名とタグを入力して友達を追加します。",
+    "adding": "追加中..."
+  },
+  "add-server-popout": {
+    "title": "サーバーの追加",
+    "join-server-notice": "招待コードを入力してサーバーに参加します。",
+    "create-server-notice": "独自のサーバーを作成します。",
+    "tabs": {
+      "join": "参加する",
+      "create": "作成する"
+    }
+  },
+  "presence": {
+    "offline": "オフライン",
+    "online": "オンライン",
+    "away": "離れて",
+    "busy": "忙しい",
+    "looking-to-play": "遊びたい"
+  },
+  "right-drawer": {
+    "server-members": "メンバー ({0})",
+    "server-offline-members": "オフライン ({0})"
+  },
+  "profile-popout": {
+    "common-friends": "共通の友達",
+    "badges": "バッジ",
+    "joined-at": "参加しました",
+    "suspended": "一時停止中",
+    "remove-friend": "友達を削除する",
+    "accept-request": "リクエストを受け入れる",
+    "cancel-request": "キャンセルリクエスト",
+    "add-friend": "友達を追加",
+    "send-message": "メッセージを送信する",
+    "common-servers": "共通サーバー"
+  },
+  "connection": {
+    "loading": "読み込み中...",
+    "ready": "準備ができて！",
+    "authenticating": "認証中..."
+  },
+  "navbar": {
+    "update": "アップデート",
+    "update-available": "利用可能なアップデート"
+  },
+  "generic": {
+    "copy": "コピー",
+    "select": "選択",
+    "delete": "消去",
+    "copied": "コピーしました！",
+    "user": "ユーザー"
+  },
+  "messages": {
+    "left": "サーバーを離れました",
+    "kicked": "蹴られた",
+    "banned": "禁止されています",
+    "joined": "サーバーに参加しました！"
+  },
+  "could-not-connect-to-server": "サーバーに接続できませんでした。",
+  "chat-area": {
+    "rate-limit-mode": "レート制限モード"
+  }
+}
