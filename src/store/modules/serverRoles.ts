@@ -8,10 +8,8 @@ import {
 import store from "..";
 import { saveCache } from "@/utils/localCache";
 import ServerRole from "@/interfaces/ServerRole";
-
 import { bitwiseAdd } from "@/utils/bitwise";
 
-// ServerRoleObj[server_id][role_id] = serverRole
 interface ServerRoleObj {
   [key: string]: {
     [key: string]: ServerRole;
@@ -32,7 +30,6 @@ class ServerRoles extends VuexModule {
 
   get sortedServerRolesArr() {
     return (server_id: string) => {
-      // sort server roles by order
       if (!this.serverRoles[server_id]) return [];
       const serverRoles = Object.values(this.serverRoles[server_id]);
       return serverRoles.sort((a: any, b: any) => {
@@ -72,6 +69,7 @@ class ServerRoles extends VuexModule {
     saveCache("serverRoles", payload);
     this.INIT_SERVER_ROLES(payload);
   }
+
   @Mutation
   private ADD_SERVER_ROLES(payload: {
     roles: { [key: string]: ServerRole };
@@ -87,6 +85,7 @@ class ServerRoles extends VuexModule {
   }) {
     this.ADD_SERVER_ROLES(payload);
   }
+
   @Mutation
   private ADD_SERVER_ROLE(payload: ServerRole) {
     if (!this.serverRoles[payload.server_id]) {
@@ -99,6 +98,7 @@ class ServerRoles extends VuexModule {
   @Action
   public AddServerRole(payload: ServerRole) {
     this.ADD_SERVER_ROLE(payload);
+    saveCache("serverRoles", this.serverRoles); // Cache aktualisieren
   }
 
   @Mutation
@@ -117,6 +117,7 @@ class ServerRoles extends VuexModule {
   public UpdateServerRole(payload: Partial<ServerRole>) {
     this.UPDATE_SERVER_ROLE(payload);
   }
+
   @Mutation
   private DELETE_SERVER_ROLE(payload: { server_id: string; role_id: string }) {
     delete this.serverRoles[payload.server_id][payload.role_id];

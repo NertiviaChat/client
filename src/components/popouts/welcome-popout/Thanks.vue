@@ -19,7 +19,7 @@
           Nertivia is open source. Check out the source code on Github.
         </div>
         <a
-          href="https://github.com/supertiger1234"
+          href="https://github.com/NertiviaChat"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -32,7 +32,7 @@
       <div class="side">
         <div class="details">Support me on Ko-fi</div>
         <a
-          href="https://ko-fi.com/nertivia"
+          href="https://ko-fi.com/faysi223"
           target="_blank"
           rel="noopener noreferrer"
         >

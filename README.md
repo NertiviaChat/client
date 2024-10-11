@@ -1,6 +1,6 @@
 # Nertivia Client
 
-Check out nertivia at https://nertivia.net
+Check out nertivia at https://nertivia.com
 
 # Development
 
@@ -12,7 +12,7 @@ Check out nertivia at https://nertivia.net
 4. run `npm i --legacy-peer-deps` inside the folder.
 5. Rename `example.env` to `.env`
 6. Run the server by `npm run serve`
-7. Navigate to http://local.nertivia.net:8080 and start your development
+7. Navigate to http://localhost:8080 and start your development
 8. Submit a PR :)
 
 # Screenshots

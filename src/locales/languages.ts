@@ -73,5 +73,10 @@ export default {
     name: "Belarusian / Беларуская",
     unicode: "🇧🇾",
     translators: ["lenify"],
+  },
+ ja: {
+    name: "Japanese / 日本語",
+    unicode: "🇯🇵",
+    translators: ["Berry"],
   }
 };

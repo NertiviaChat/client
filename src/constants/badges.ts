@@ -9,6 +9,7 @@ export const BUG_CATCHER = 32;
 export const TRANSLATOR = 64;
 export const CONTRIBUTOR = 128;
 export const EMPLOYEES = 256;
+export const OLD_USER = 512;
 // next value = 256
 
 export interface Badge {
@@ -36,7 +37,7 @@ export const badges: Record<number, Badge> = {
   },
   8: {
     name: "Supporter",
-    iconURL: process.env.VUE_APP_TWEMOJI_LOCATION + "/2764.png",
+    iconURL: "https://nertivia-cdn.ciach795.com/7246094052045623296/7250138445484396544/Supporter%20-%20Badge.png",
     color: "#dd2e44",
   },
   16: {
@@ -46,12 +47,12 @@ export const badges: Record<number, Badge> = {
   },
   32: {
     name: "Bug Catcher",
-    iconURL: process.env.VUE_APP_TWEMOJI_LOCATION + "/1f41b.png",
+    iconURL: "https://nertivia-cdn.ciach795.com/7246094052045623296/7250137839998865408/Bug%20Hunter%20Badge.png",
     color: "#e234eb",
   },
   64: {
     name: "Translator",
-    iconURL: process.env.VUE_APP_TWEMOJI_LOCATION + "/1f4dd.png",
+    iconURL: "https://nertivia-cdn.ciach795.com/7246094052045623296/7250138323539202048/Translator%20-%20Badge.png",
     color: "#1fffb4",
   },
   128: {
@@ -61,8 +62,13 @@ export const badges: Record<number, Badge> = {
   },
    256: {
     name: "Employees",
-    iconURL: process.env.VUE_APP_TWEMOJI_LOCATION + "/2728.png",
+    iconURL: "https://nertivia-cdn.ciach795.com/7234162370073858048/7250253054568566784/bnr.png",
     color: "#2596be",
+  },
+  512: {
+    name: "Old User",
+    iconURL: "https://nertivia-cdn.ciach795.com/7246094052045623296/7250138069146275840/Old%20User%20-%20Badge.png",
+    color: "#E30B5C",
   },
 };
 

@@ -3,7 +3,7 @@
     <Header />
     <div class="content">
       <div class="title">Nertivia Terms and Conditions of Use</div>
-      <div class="updated-date">Last updated: Friday 05 October 2020</div>
+      <div class="updated-date">Last updated: Friday 08 October 2024</div>
       <p>
         If you find something missing or have any questions, email us at
 
@@ -15,7 +15,7 @@
 
       <div class="sub-title">1. Terms</div>
       <p>
-        By accessing this Website, accessible from https://nertivia.net, you are
+        By accessing this Website, accessible from https://nertivia.com, you are
         agreeing to be bound by these Website Terms and Conditions of Use and
         agree that you are responsible for the agreement with any applicable
         local laws. If you disagree with any of these terms, you are prohibited
@@ -97,8 +97,8 @@
         you are over the age of 14 and the age of consent in your country. If
         you are caught underaged or is in the range of minority, your account
         will be suspended. Once you are over the age of 14, do email
-        <a href="mailto:nertivia@gmail.com?subject=About%20My%20Age"
-          >nertivia@gmail.com</a
+        <a href="mailto:support@nertivia.com?subject=About%20My%20Age"
+          >support@nertivia.com</a
         >
         with proof of your age to get your account unsuspended.
       </p>

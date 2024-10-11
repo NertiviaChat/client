@@ -24,27 +24,35 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      
       - name: Install Node.js
-        uses: actions/setup-node@master
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14' # or the version you need
+
       - name: Install Dependencies
         run: npm install --force
+
       - name: Build App
         run: npm run build
         env:
-          VUE_APP_MAIN_APP_URL: "https://nertivia.net/"
-          VUE_APP_SOCKET_URL: "https://nertivia.net"
-          VUE_APP_FETCH_PREFIX: "https://nertivia.net/api"
-          VUE_APP_NERTIVIA_CDN: "https://media.nertivia.net/"
+          VUE_APP_MAIN_APP_URL: "https://nertivia.com/"
+          VUE_APP_SOCKET_URL: "https://nertivia-server.ciach795.com/"
+          VUE_APP_FETCH_PREFIX: "https://nertivia-server.ciach795.com/api"
+          VUE_APP_NERTIVIA_CDN: "https://nertivia-cdn.ciach795.com/"
           VUE_APP_CAPTCHA_SITE_KEY: "8babbac4-8758-4347-84d4-0ff321e821bc"
-          VUE_APP_TWEMOJI_LOCATION: "https://nertivia.net/twemojis/"
-          VUE_APP_IMAGE_PROXY_URL: "//media.nertivia.net/proxy.php?url="
+          VUE_APP_TWEMOJI_LOCATION: "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/72x72/"
+          VUE_APP_IMAGE_PROXY_URL: "//nertivia-cdn.ciach795.com/proxy.php?url="
           VUE_APP_FCM_API_KEY: "AIzaSyBYRykWjjPicFkaiJ49C8GbUmbZUmJeWOg"
           VUE_APP_FCM_AUTH_DOMAIN: "dotted-clover-231410.firebaseapp.com"
           VUE_APP_FCM_DATABASE_URL: "https://dotted-clover-231410.firebaseio.com"
           VUE_APP_FCM_PROJECT_ID: "dotted-clover-231410"
           VUE_APP_FCM_STORAGE_BUCKET: "dotted-clover-231410.appspot.com"
           VUE_APP_FCM_SENDER_ID: "858269624186"
-          VUE_APP_FCM_APP_ID: "1:858269624186:web:a3193c0b82097a41d918c3"    
+          VUE_APP_FCM_APP_ID: "1:858269624186:web:a3193c0b82097a41d918c3"
+          VUE_APP_I18N_LOCALE: "en"
+          VUE_APP_I18N_FALLBACK_LOCALE: "en"
+
       - name: Deploy to Server
         uses: easingthemes/ssh-deploy@v2.1.5
         env:
@@ -53,8 +61,3 @@ jobs:
           REMOTE_HOST: ${{ secrets.HOST }}
           REMOTE_USER: ${{ secrets.USER }}
           TARGET: /var/www/nertivia.net
-          
-          
-          
-          
-  

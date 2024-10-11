@@ -43,6 +43,11 @@ const router = VueRouter.createRouter({
       component: () => import("../views/TermsAndConditions.vue"),
     },
     {
+      path: "/applyverify",
+      name: "Apply_Verify",
+      component: () => import("../views/ApplyVerify.vue"),
+    },
+    {
       path: "/popout-css-editor",
       name: "CSSEditor",
       component: () =>

@@ -1,6 +1,38 @@
 [
 
 	{
+		"version": "1.54.3-stable",
+		"date": "11 10 2024",
+		"title": "Add ApplyVerify site",
+		"new": [
+			"Add the Apply Verify site https://nertivia.com/applyverify"
+		]
+	},
+	{
+		"version": "1.54.3-stable",
+		"date": "10 10 2024",
+		"title": "Update Badge",
+		"changes": [
+			"Change Badge Icon"
+		]
+	},
+	{
+		"version": "1.54.2-stable",
+		"date": "02 10 2024",
+		"title": "Language add",
+		"new": [
+			"Add japanese translation"
+		]
+	},
+	{
+		"version": "1.54.1-stable",
+		"date": "29 09 2024",
+		"title": "Badge",
+		"changes": [
+			"Add: Old User Badge"
+		]
+	},
+	{
 		"version": "1.53.9-stable",
 		"date": "30 08 2024",
 		"title": "WIP-Features",

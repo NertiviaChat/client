@@ -12,7 +12,7 @@
           ><!-- TODO: i18n -->
           To create a custom invite, your server must be
           <a
-            href="https://forms.gle/dDCszjey74n4HCK1A"
+            href="https://nertivia.com/applyverify"
             target="_blank"
             rel="noopener noreferrer"
             >verified</a
